@@ -1,0 +1,38 @@
+body {
+  background-color: #C7D9DD;
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  padding: 0 2rem;
+}
+
+
+.name {
+    font-size: 38px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    margin-top: 1px;
+}
+
+
+.page-navigation {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 2rem;
+    cursor: pointer;
+}
